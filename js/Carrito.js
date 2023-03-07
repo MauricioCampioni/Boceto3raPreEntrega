@@ -23,7 +23,7 @@ stockProductos.forEach(producto => {
     const div= document.createElement("div");
 
 
-    div.classList.add("Remera", "TipografiaProductos", "ContainerPrecioComprar");
+    div.classList.add("Remera");
     
     
     div.innerHTML=`

@@ -20,6 +20,15 @@ header {
     justify-content: center;
     text-align: center; }
 
+  #Container-Carrito{
+    width: 100%;
+    height: 100%
+  }
+  #Carrito{
+    width: 50px ;
+    height: 50px;
+  }
+
 #BocaStore {
   color: blue;
   font-size: 40px;
@@ -50,7 +59,10 @@ header {
 
 .Submenu {
   border-radius: 10px;
-  width: 100%;
+  width: 640px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
   margin-top: 35px;
   list-style: none;
   display: none;
@@ -76,12 +88,14 @@ header {
   list-style: none; }
 
 #ContainerMenu {
+  align-items: center;
   justify-content: center;
   display: flex;
   width: 100%;
   height: fit-content; }
 
 #TamañoMenu {
+  width: 90%;
   font-family: 'Roboto', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: #010127;
   justify-content: center;
@@ -134,6 +148,9 @@ main {
   grid-auto-rows: minmax(100px, auto);
   grid-gap: 50px; }
 
+
+
+
 .TipografiaProductos {
   font-family: Arial, Helvetica, sans-serif;
   color: black;
@@ -145,7 +162,7 @@ main {
 .TipografiaProductos:hover {
   color: blue; }
 
-.ContainerPrecioComprar {
+ .ContainerPrecioComprar{
   display: flex;
   flex-direction: row;
   justify-content: space-around; }
@@ -158,7 +175,7 @@ main {
   border-style: solid;
   border-width: 2px;
   width: 200px;
-  height: 240px; }
+  height: 260px; }
   .Remera:hover, .Short:hover {
     transform: scale(1.1); }
 
@@ -290,9 +307,13 @@ footer, footer .RedFacebook {
   header nav {
     height: 80px;
     flex-direction: row;
-    justify-content: space-between; }
-  #ContainerMenu, .Submenu {
+    justify-content: space-between;
+     }
+  #ContainerMenu {
     width: 300px; }
+    .Submenu{
+      width: 200px;
+    }
   #MenuNavegacion {
     width: fit-content;
     flex-direction: row;
@@ -325,7 +346,7 @@ footer, footer .RedFacebook {
     border-style: solid;
     border-width: 2px;
     width: 200x;
-    height: 245px; }
+    height: 260px; }
     .Remera:hover, .Short:hover {
       transform: scale(1.1); }
   .Short {
@@ -335,7 +356,7 @@ footer, footer .RedFacebook {
     border-style: solid;
     border-width: 2px;
     width: 200px;
-    height: 245px; }
+    height: 260px; }
     .Short:hover {
       transform: scale(1.1); }
   .ImagenRemera, .ImagenShort {
